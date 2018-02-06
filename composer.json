@@ -1,7 +1,7 @@
 {
     "name": "eldelassombras/geo-php",
     "type": "library",
-    "description": "This Geolocation PHP class connects to Google Maps API to find latitude/longitude or address.",
+    "description": "Esta clase PHP de geolocalización se conecta a la API de Google Maps para encontrar latitud / longitud o dirección.",
     "keywords": ["geolocation", "google", "maps", "api", "php"],
     "homepage": "https://github.com/eldelassombras/geo-php",
     "license": "MIT",
