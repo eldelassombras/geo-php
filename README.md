@@ -15,7 +15,7 @@ When using [Composer](https://getcomposer.org) you can always load in the latest
 ``` json
 {
     "require": {
-        "jeroendesloovere/geolocation-php-api": "1.3.*"
+        "eldelassombras/geolocation-php-api": "1.3.*"
     }
 }
 ```
