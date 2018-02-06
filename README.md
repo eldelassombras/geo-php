@@ -19,7 +19,7 @@ When using [Composer](https://getcomposer.org) you can always load in the latest
     }
 }
 ```
-Check [in Packagist](https://packagist.org/packages/jeroendesloovere/geolocation-php-api).
+Check [in Packagist](https://packagist.org/packages/eldelassombras/geo-php).
 
 ### Usage example
 
@@ -58,24 +58,6 @@ $result = Geolocation::getAddress(
 ```
 
 Check [the Geolocation class source](./src/Geolocation.php) or [view examples](./examples/example.php).
-
-## Symfony bundle
-
-I've also created a Symfony bundle.
-View the [Geolocation bundle](https://github.com/jeroendesloovere/geolocation-bundle).
-
-## Documentation
-
-The class is well documented inline. If you use a decent IDE you'll see that each method is documented with PHPDoc.
-
-## Contributing
-
-It would be great if you could help us improve this class. GitHub does a great job in managing collaboration by providing different tools, the only thing you need is a [GitHub](http://github.com) login.
-
-* Use **Pull requests** to add or update code
-* **Issues** for bug reporting or code discussions
-* Or regarding documentation and how-to's, check out **Wiki**
-More info on how to work with GitHub on help.github.com.
 
 ## License
 
