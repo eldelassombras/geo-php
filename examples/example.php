@@ -5,12 +5,12 @@
  *
  * Get latitude/longitude or address using Google Maps API
  *
- * @author Jeroen Desloovere <info@jeroendesloovere.be>
+ * @author Claudio Sanhueza <claudio.sanhueza.soto@gmail.com>
  */
 
 require_once __DIR__ . '/../src/Geolocation.php';
 
-use JeroenDesloovere\Geolocation\Geolocation;
+use eldelassombras\Geolocation\Geolocation;
 
 // define result
 $result = Geolocation::getCoordinates('Koningin Maria Hendrikaplein', '1', 'Gent', '9000', 'belgië');
