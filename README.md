@@ -1,6 +1,6 @@
 # geo-php basado en Geolocation PHP class connects to Google MAPS API
 
-[![Latest Stable Version](http://img.shields.io/packagist/v/jeroendesloovere/geolocation-php-api.svg)](https://packagist.org/packages/jeroendesloovere/geolocation-php-api)
+[![Latest Stable Version](http://img.shields.io/packagist/v/jeroendesloovere/geolocation-php-api.svg)](https://packagist.org/packages/eldelassombras/geo-php)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/jeroendesloovere/geolocation-php-api/blob/master/LICENSE)
 [![Build Status](http://img.shields.io/travis/jeroendesloovere/geolocation-php-api.svg)](https://travis-ci.org/jeroendesloovere/geolocation-php-api)
 
