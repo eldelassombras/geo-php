@@ -9,6 +9,7 @@ namespace eldelassombras\Geolocation;
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  * @author Claudio Sanhueza <claudio.sanhueza.soto@gmail.com>
+ * @version 1.0.0
  */
 class Geolocation{
     // API URL
