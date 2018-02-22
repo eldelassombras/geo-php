@@ -147,6 +147,7 @@ Temporary Items
 .apdisk
 
 ### NetBeans ###
+nbproject/
 nbproject/private/
 build/
 nbbuild/
