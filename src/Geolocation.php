@@ -7,9 +7,7 @@ namespace eldelassombras\Geolocation;
  *
  * Get latitude/longitude or address using Google Maps API
  *
- * @author Jeroen Desloovere <info@jeroendesloovere.be>
  * @author Claudio Sanhueza <claudio.sanhueza.soto@gmail.com>
- * @version 1.0.0
  */
 class Geolocation{
     // API URL
@@ -43,12 +41,12 @@ class Geolocation{
         // definir url
         $url = ($this->https ? 'https://' : 'http://') . self::API_URL . '?';
 
-        // agregue todos los parámetros a la url
+        // agregue todos los parÃ¡metros a la url
         foreach ($parameters as $key => $value) {
 			$url .= $key . '=' . urlencode($value) . '&';
 		}
 
-		// recortar el último ampersan (&)
+		// recortar el Ãºltimo ampersan (&)
         $url = trim($url, '&');
 
         if ($this->api_key) {
@@ -88,9 +86,6 @@ class Geolocation{
 		//print_r($response);
 		$tipo = $response->results;
 		foreach ($tipo as $key => $value) {
-			//echo '<pre>';
-			//echo $value->types[0];
-			//echo '</pre>';
 			switch ($value->types[0]){
 				case 'street_address':
 					return $tipo;
@@ -106,7 +101,7 @@ class Geolocation{
     }
 
     /**
-     * Obtener dirección usando latitud / longitud
+     * Obtener direcciÃ³n usando latitud / longitud
      *
      * @return array(label, components)
      * @param  float        $latitude
@@ -169,11 +164,11 @@ class Geolocation{
      * Obtener coordenadas latitud / longitud
      *
      * @return array  The latitude/longitude coordinates
-     * @param  string $street[optional]
-     * @param  string $streetNumber[optional]
-     * @param  string $city[optional]
-     * @param  string $zip[optional]
-     * @param  string $country[optional]
+	 * @param String $street[optional]
+     * @param String $streetNumber[optional]
+     * @param String $city[optional]
+     * @param String $zip[optional]
+     * @param String $country[optional]
      */
     public function getCoordinates(
         $street = null,
@@ -188,7 +183,7 @@ class Geolocation{
         // agregar calle
         if (!empty($street)) $item[] = $street;
 
-        // agregar el número de la calle
+        // agregar el nÃºmero de la calle
         if (!empty($streetNumber)) $item[] = $streetNumber;
 
         // agregar ciudad - comuna
@@ -197,7 +192,7 @@ class Geolocation{
         // agregar zip
         if (!empty($zip)) $item[] = $zip;
 
-        // agregar país
+        // agregar paÃ­s
         if (!empty($country)) $item[] = $country;
 
         // definir value
@@ -230,7 +225,6 @@ class Geolocation{
 /**
  * Geolocation Exception
  *
- * @author Jeroen Desloovere <info@jeroendesloovere.be>
  * @author Claudio Sanhueza <claudio.sanhueza.soto@gmail.com>
  */
 class GeolocationException extends \Exception {}
